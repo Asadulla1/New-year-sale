@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+header {
+  margin: 0 auto;
+  background-image: url("../images/Banner\ Image.png");
+  height: 600px;
+  width: 1360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+}
+.banner {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+.banner .banner-subtitle {
+  /* color: rgb(255, 255, 255); */
+  /* font-family: Merriweather; */
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner .banner-title {
+  /* color: rgb(255, 255, 255); */
+  /* font-family: Merriweather; */
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.second-banner {
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  max-width: 802.9px;
+  max-height: 806px;
+  margin-top: 90px;
+}
+.second-heading {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.second-description {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.second-subtitle {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.third-banner {
+  /* border: 2px solid red; */
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 90px;
+  background-image: url("../images/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.third-banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 50px;
+}
+.banner-heading {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.banner-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.third-banner-btn {
+  background-color: black;
+  padding: 8px 20px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.third-banner-column2 {
+  position: relative;
+  top: 60px;
+}
+.fourth-banner {
+  width: 1320px;
+  height: 482px;
+  margin-top: 90px;
+  margin: 0px auto;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  /* margin-bottom: 90px; */
+}
+.schedules {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+.fouth-banner-timetable {
+  color: red;
+}
+.fourth-banner-btn {
+  color: white;
+  background-color: red;
+  width: 167px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
+.new-best-offer {
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  width: 1320px;
+  height: 463px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.best-offer-subtitle {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.best-offer-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.best-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.best-offer-image-container {
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  width: 364.84px;
+  height: 364.84px;
+  padding: 36px;
+}
+.best-offer-happy_new_year-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.best-offer-happy_new_year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.best-offer-happy_new_year-img {
+  width: 102.4px;
+  height: 132.79px;
+}
+.new-best-offer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.best-offer {
+  width: 30%;
+}
+.img-bst {
+  width: 40%;
+}
+.best-offer-happy_new_year {
+  width: 30%;
+}
+.holiday-section {
+  /* border: 2px solid red; */
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.functional {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holiday-offer {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holiday-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 260px;
+}
+.image-layout {
+  /* border: 2px solid red; */
+  width: 1620px;
+  height: 662.07px;
+  margin: 90px 140px;
+  position: relative;
+}
+.image-layout-red_surface {
+  position: absolute;
+  width: 1620px;
+  bottom: 0;
+}
+.gift-box-img {
+  position: absolute;
+  z-index: 2;
+  width: 674.82px;
+  height: 577.96px;
+  left: 40px;
+}
+.dark-circle {
+  position: absolute;
+  z-index: 3;
+  width: 674.82px;
+  background-color: black;
+  opacity: 0.09;
+  height: 50px;
+  bottom: 152px;
+  border-radius: 60%;
+  box-shadow: 0px 0px 50px;
+  left: 70px;
+}
+.discount-badge {
+  position: absolute;
+  right: 150px;
+  top: 15px;
+}
+.discount-badge img {
+  width: 348.69px;
+  height: 348.69px;
+}
+.portfoilio {
+  /* border: 2px solid red; */
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+}
+.portfoilo-subtitle {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.portfolio-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.portfolio-desxription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 60%;
+  margin-bottom: 40px;
+}
+.img-col-1 img,
+.img-col-2 img {
+  width: 424px;
+  height: 450px;
+}
+.img-col-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.news-letter-container {
+  /* border: 2px solid red; */
+  width: 1320px;
+  height: 616px;
+  margin: 0px auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+}
+.news-letter {
+  text-align: center;
+  margin-top: 60px;
+}
+.news-letter-heading {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.news-letter-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 212px;
+}
+.news-letter-field {
+  width: 628px;
+  height: 22px;
+  border-radius: 50px;
+
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 20px;
+}
+.news-letter-btn {
+  border-radius: 0px 50px 50px 0px;
+  padding: 20px;
+  background: rgb(255, 0, 0);
+  width: 180px;
+  height: 62px;
+  border: none;
+  color: white;
+  position: relative;
+  right: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  bottom: -3px;
+}
+.footer-section {
+  width: 100%;
+  background-color: rgb(7, 2, 17);
+  height: 609px;
+  border-radius: 5px;
+  color: white;
+}
+.address-details {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-num {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-website {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 120px 0px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 0px 140px;
+}
+.icons {
+  text-align: center;
+}
+.icons img {
+  margin: 60px 20px;
+}
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 120px;
+  background-color: rgb(7, 2, 17);
+}
+.copyright-content {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.unsubscribe {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
